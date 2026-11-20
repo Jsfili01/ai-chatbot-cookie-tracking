@@ -1,0 +1,32 @@
+welcome back, J!
+jordan@jordan-asuslaptopq530vj:~$ cd ~/chatbot-crawler
+git status
+fatal: not a git repository (or any of the parent directories): .git
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Raw research data
+captures/
+analysis/
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.har
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Browser profiles
+browser_data/
+user_data/
